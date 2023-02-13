@@ -1,6 +1,68 @@
 /* CSS RESET */
 
-*{
+body{
+    color: white;
     margin: 0px;
     padding: 0px;
+    background:url(../images/lady.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    border: 2px solid white;
+}
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid red;
+}
+
+.left div{
+    text-align: center;
+}
+
+.left img{
+    width: 85px;
+    filter: invert(100%);
+}
+
+.middle{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid green;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 24px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid yellow;
 }
